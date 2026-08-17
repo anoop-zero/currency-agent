@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem 4rem;
+  background: #f6f7f9;
+  color: #16181d;
+  font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 0.25rem;
+}
+
+.subtitle {
+  margin: 0 0 1.5rem;
+  color: #5b6270;
+  font-size: 0.9rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.7rem 0.85rem;
+  font-size: 1rem;
+  border: 1px solid #c8cdd6;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+}
+
+input[type="text"]:focus {
+  outline: 2px solid #2f6feb;
+  outline-offset: -1px;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 8px;
+  background: #2f6feb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hint {
+  font-size: 0.82rem;
+  color: #5b6270;
+  margin: 0 0 1.5rem;
+}
+
+.arrow {
+  text-align: center;
+  color: #98a0ae;
+  font-size: 1.1rem;
+  margin: 0.4rem 0;
+}
+
+.block {
+  background: #fff;
+  border: 1px solid #dfe3ea;
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem;
+}
+
+.block-label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.block-note {
+  margin: 0.15rem 0 0.7rem;
+  font-size: 0.82rem;
+  color: #5b6270;
+}
+
+.block-output {
+  margin: 0;
+  padding: 0.7rem 0.85rem;
+  background: #f2f4f7;
+  border: 1px solid #e3e7ee;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.block-index {
+  color: #98a0ae;
+  margin-right: 0.4rem;
+}
+
+.question-block .block-output {
+  font-size: 0.9rem;
+}
+
+.final .block-output {
+  font-size: 1.05rem;
+  font-weight: 600;
+  background: #eef4ff;
+  border-color: #cfe0ff;
+}
+
+.final .block-output.error {
+  background: #fdeeee;
+  border-color: #f5c7c7;
+}
+
+.empty {
+  color: #5b6270;
+  font-style: italic;
+}

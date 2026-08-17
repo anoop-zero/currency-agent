@@ -1,0 +1,30 @@
+{
+  "USD": {
+    "rate": 1,
+    "decimals": 2
+  },
+  "EUR": {
+    "rate": 0.92,
+    "decimals": 2
+  },
+  "GBP": {
+    "rate": 0.78,
+    "decimals": 2
+  },
+  "JPY": {
+    "rate": 157,
+    "decimals": 0
+  },
+  "INR": {
+    "rate": 87.5,
+    "decimals": 2
+  },
+  "KWD": {
+    "rate": 0.31,
+    "decimals": 3
+  },
+  "AED": {
+    "rate": 3.67,
+    "decimals": 2
+  }
+}
